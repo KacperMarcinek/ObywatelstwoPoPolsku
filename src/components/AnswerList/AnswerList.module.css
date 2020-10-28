@@ -1,0 +1,25 @@
+.container {
+	border-top: 3px solid lightgray;
+}
+
+.text {
+	padding: 8px 16px 8px 16px;
+}
+
+.letter {
+	padding-left: 8px;
+}
+
+.listItem {
+	padding-left: 16px;
+}
+
+.listItem:hover {
+	background-color: lightgray;
+	cursor: pointer;
+}
+
+.listDisable {
+	pointer-events: none;
+	opacity: 0.4;
+}
